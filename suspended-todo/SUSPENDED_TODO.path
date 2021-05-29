@@ -1,0 +1,6 @@
+[Unit] 
+Description=Path unit for monitoring document closing
+[Path]
+PathChanged=/home/root/.local/share/remarkable/xochitl/DUID.thumbnails/IUID.jpg
+[Install]
+WantedBy=multi-user.target
