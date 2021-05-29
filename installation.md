@@ -71,3 +71,5 @@ Once rebooted, open your TODO list document and write something, then close it. 
 
 In the future, if you want to change the templates for your suspended screen or todo list, simply repeat the configuration steps.  
 
+![example of todo list](suspended_todo_sample.png)
+
