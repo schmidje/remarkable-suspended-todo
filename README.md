@@ -1,10 +1,10 @@
-# remarkable-suspended-todo
+# TODO list on the Remarkable suspended screen
 
 ## Overview
 
 This project enables the addition of a TODO list in the suspended screen of the Remarkable 2. The list is generated from a page of a document (notebook, pdf file). The suspended screen is automatically generated once the corresponding document is closed.
 
-The idea is depicted in the next picture where a todo-list defined as a page of a document is pasted into a "template" suspended screen at pixel coordinates `(tlx,tly)` and with `(width x height)` dimensions. 
+The idea is depicted in the next picture where a TODO list defined as a page of a document is pasted into a "template" suspended screen at pixel coordinates `(tlx,tly)` and with `(width x height)` dimensions. 
 
 ![overview](overview.png)
 
@@ -25,6 +25,6 @@ This project borrows ideas from:
 
 ## Known limitations
 
-- We are limited by the low resolution of the thumbnails, so do not use TODO lists with too small text.
-- The project could be easily improved by developing a compiled binary for the Remarkable of a program that will leverage the image processing part currently done by using the GraphicsMagick package. While I am familiar with programming, I never to program on the Remarkable tablet (looks like the Go language is commonly used).
+- We are limited by the low resolution of the thumbnails, so do not use TODO lists with too small text. This is also the main reason the TODO list page is pasted into a smaller area so that the small resolution is less an issue.
+- The project could be easily improved by developing a compiled binary for the Remarkable of a program that will leverage the image processing part currently done by using the GraphicsMagick package. While I am familiar with programming, I never programmed on the Remarkable tablet (looks like the Go language is commonly used).
 - Similarly, instead of relying on the thumbnails we could develop a program that directly converts the Remarkable .rm format to png, probably borrowing ideas from [pdf2png](https://github.com/pdbeckwith/rm2png). This would result in high resolution TODO lists.

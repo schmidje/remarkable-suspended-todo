@@ -2,7 +2,7 @@
 
 ## ddvk hacks
 
-Your tablet must support the modification of the suspended screen **without reboot**. This functionality has been removed by rM updates (I think since v2.5) so you will have to install [ddvk remarkable hacks](https://github.com/ddvk/remarkable-hacks) to recover it. If you have an old installed system, you may be able to bypass the installation of the hacks. To check this,have a look at the many tutorials to set a custom suspended screen. If after changing the suspended screen, you don't have to reboot your device to have your new custom suspended screen available, you don't need the hacks. 
+Your tablet must support the modification of the suspended screen **without reboot**. This functionality has been removed by rM updates (I think since v2.5) so you will have to install [ddvk remarkable hacks](https://github.com/ddvk/remarkable-hacks) to recover it. If you have an old installed system, you may be able to bypass the installation of the hacks. To check this, have a look at the many tutorials to set a custom suspended screen. If after changing the suspended screen, you don't have to reboot your device to have your new custom suspended screen available, you don't need the hacks. 
 
 ## opkg package manager
 
@@ -11,11 +11,11 @@ Follow the instruction at [Evidlo's Remarkable Entware page](https://github.com/
 
 ## GraphicsMagick
 
-Install the GraphicsMagick package by connecting to ssh to your device and using the command-line:
+Install the GraphicsMagick package by connecting via ssh to your device and by using the following command-line:
 
     /opt/bin/opkg install graphicsmagick
 
-Type  `/opt/bin/gm` in the shell to see if it is properly installed. You sould see something like this:
+Type  `/opt/bin/gm` in the shell to see if it is properly installed. You should see something like this:
 
     reMarkable: ~/ /opt/bin/gm
     GraphicsMagick 1.3.35 2020-02-23 Q8 http://www.GraphicsMagick.org/

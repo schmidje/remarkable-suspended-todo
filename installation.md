@@ -2,7 +2,7 @@
 
 ## Before your start
 
-Install the [prerequisites](prerequisites.md). 
+Install the [prerequisites](prerequisities.md). 
 
 Backup your custom suspended screen as it will be overwritten.
 
