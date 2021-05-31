@@ -27,4 +27,4 @@ This project borrows ideas from:
 
 - We are limited by the low resolution of the thumbnails, so do not use TODO lists with too small text. This is also the main reason the TODO list page is pasted into a smaller area so that the small resolution is less an issue.
 - The project could be easily improved by developing a compiled binary for the Remarkable of a program that will leverage the image processing part currently done by using the GraphicsMagick package. While I am familiar with programming, I never programmed on the Remarkable tablet (looks like the Go language is commonly used).
-- Similarly, instead of relying on the thumbnails we could develop a program that directly converts the Remarkable .rm format to png, probably borrowing ideas from [pdf2png](https://github.com/pdbeckwith/rm2png). This would result in high resolution TODO lists.
+- Similarly, instead of relying on the thumbnails we could develop a program that directly converts the Remarkable .rm format to png, probably borrowing ideas from [rm2png](https://github.com/pdbeckwith/rm2png). This would result in high resolution TODO lists.
