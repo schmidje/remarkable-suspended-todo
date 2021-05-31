@@ -16,7 +16,7 @@ Follow instructions [here](installation.md).
 
 Use it at your own risk and be aware that you may void your warranty by installing software on your Remarkable. The approach should probably work on a Remarkable 1 with last version OS but I cannot be sure since I do not own a Remarkable 1.
 
-## project origin
+## Project origin
 
 This project borrows ideas from:
 - [remarkable_pdflets](https://github.com/Evidlo/remarkable_pdflets): showcases the use of systemd path unit to detect modifications on a file.
