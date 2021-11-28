@@ -16,7 +16,7 @@ Follow instructions [here](installation.md).
 
 Use it at your own risk and be aware that you may void your warranty by installing software on your Remarkable. The approach should probably work on a Remarkable 1 with last version OS but I cannot be sure since I do not own a Remarkable 1.
 
-Last version tested with ddvk hacks: 2.9.1.217
+Last version tested with ddvk hacks (2021.11.28): 2.10.3.379
 
 ## Project origin
 
